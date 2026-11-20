@@ -55,7 +55,7 @@ export function AdminKeyPrompt({ onKeySubmit, onClose }: AdminKeyPromptProps) {
                 setKey(e.target.value);
                 setError(null);
               }}
-              className="w-full px-3 py-2 border border-border rounded-md bg-background text-foreground placeholder-subtle focus:outline-none focus:ring-2 focus:ring-brand"
+              className="w-full px-3 py-2 border border-border rounded-md bg-background text-foreground placeholder-subtle focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand"
               autoFocus
             />
           </div>

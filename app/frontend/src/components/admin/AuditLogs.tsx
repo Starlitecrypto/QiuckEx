@@ -68,7 +68,7 @@ export function AuditLogs() {
         <div className="flex items-center space-x-2">
           <Filter className="h-4 w-4 text-subtle" />
           <select
-            className="border border-border rounded-md py-1.5 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-brand bg-card"
+            className="border border-border rounded-md py-1.5 px-3 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand bg-card"
             value={filter}
             onChange={(event) => setFilter(event.target.value)}
           >

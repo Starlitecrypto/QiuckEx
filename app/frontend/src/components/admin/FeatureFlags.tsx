@@ -168,7 +168,7 @@ export function FeatureFlags() {
             <input
               type="text"
               placeholder="Search flags..."
-              className="pl-9 pr-4 py-2 text-sm border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-brand w-full"
+              className="pl-9 pr-4 py-2 text-sm border border-border rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand w-full"
               value={search}
               onChange={(event) => setSearch(event.target.value)}
             />
